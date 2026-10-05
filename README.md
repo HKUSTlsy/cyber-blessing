@@ -2,6 +2,13 @@
 
 轻量、离线的 macOS 菜单栏应用。虚拟上香、掷圣杯、敲木鱼与盘串一次呈现一种；仅供娱乐与仪式体验，不预测或保证现实结果。无需账号、网络或服务器。
 
+## 下载测试版
+
+[0.7.4 未公证测试版及源码下载](https://github.com/HKUSTlsy/cyber-blessing/releases/tag/v0.7.4)。选择 `CyberBlessing-0.7.4-macOS.zip` 获取应用，源码归档与对应 SHA-256 文件也在同一页面。
+
+当前安装包未经 Developer ID 签名和 Apple 公证，Gatekeeper 评估拒绝，下载后可能无法直接打开。该发布标记为 Pre-release；需要常规安装体验时，应等待完成签名与公证的版本。
+
+
 ## 功能
 
 - 顶部菜单直接选择四项仪式，弹窗宽度统一为 354 pt。
