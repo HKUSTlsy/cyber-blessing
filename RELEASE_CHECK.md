@@ -13,7 +13,7 @@
 
 - 已完成本地 `main` 初始化、账号本人授权、公开仓库创建与源码推送。仓库：[HKUSTlsy/cyber-blessing](https://github.com/HKUSTlsy/cyber-blessing)。
 - 已创建 [v0.7.4 预发布测试版](https://github.com/HKUSTlsy/cyber-blessing/releases/tag/v0.7.4)，包含应用 ZIP、源码 ZIP 和两个 SHA-256 文件。标签固定对应发布提交；`main` 可包含发布后补充的下载说明。
-- 应用是 ad-hoc 签名、未公证的测试包，Gatekeeper 评估拒绝。GitHub 可以托管源码和明确标注的测试包；正常的公开安装体验还需要 Developer ID 签名和 Apple 公证，当前没有对应账号凭证。
+- 应用是 ad-hoc 签名、未公证的测试包，Gatekeeper 评估拒绝。GitHub 可以托管源码和明确标注的测试包；未公证包的首次打开方法见 [安装指南](README.md#首次打开未公证版本)。要通过默认 Gatekeeper 检查，需要 Developer ID 签名和 Apple 公证，当前没有对应账号凭证。
 - 当前仅在 Apple Silicon/macOS 26 实际运行；Intel/macOS 13、菜单栏物理交互与快捷键、VoiceOver 和长时间使用仍需人工验收。
 - 拇指形变使用 CIWarpKernel(source:)，当前 SDK 发出弃用警告；已验证本机可用。后续完整 Xcode 环境可迁移到 Metal 内核。
 
