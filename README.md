@@ -4,6 +4,10 @@
 
 **下载安装后，点击屏幕顶部菜单栏的火焰图标使用。** 应用没有独立的主窗口，也不会显示常驻 Dock 图标。
 
+## 作者的 AI 代充站
+
+我也运营一个个人 AI 代充站：[mylsyai.com](https://mylsyai.com)。如果你有 AI 服务代充需求，欢迎访问，了解站内提供的服务与说明。
+
 ## 下载与安装
 
 要求 **macOS 13 或更新版本**。同一个安装包包含 Apple Silicon（M 系列）和 Intel 两种架构，无需分别选择；目前实际运行验证覆盖 Apple Silicon，Intel 仍待实机验证。
@@ -88,7 +92,7 @@
 ## 源码与项目文档
 
 - [开发与验证](DEVELOPMENT.md)：从源码运行、检查、打包与校验。
-- [更新记录](CHANGELOG.md)：各版本改动；[0.7.4 发布说明](RELEASE_NOTES_0.7.4.md)包含当前版本限制。
+- [更新记录](CHANGELOG.md)：统一查看各版本改动；当前版本说明见 [GitHub Release](https://github.com/HKUSTlsy/cyber-blessing/releases/tag/v0.7.4)。
 - [发布检查](RELEASE_CHECK.md)：已完成的检查和待验证项目。
 - [界面设计](DESIGN.md)、[素材来源](ASSETS.md)及[新增素材记录](ASSETS_0.7.0.md)。
 

@@ -22,4 +22,4 @@
 - `CyberBlessing-0.7.4-macOS.zip` 和对应 `.sha256`
 - `CyberBlessing-0.7.4-source.zip` 和对应 `.sha256`
 
-发布正文采用 RELEASE_NOTES_0.7.4.md。源码不要包含 `.work`、`.build` 或整个 `dist` 历史归档。`--self-check` 使用隔离的 UserDefaults，不修改真实用户统计。
+发布正文保存在 GitHub Release 页面，版本改动统一记录于 [CHANGELOG.md](CHANGELOG.md)。源码不要包含 `.work`、`.build` 或整个 `dist` 历史归档。`--self-check` 使用隔离的 UserDefaults，不修改真实用户统计。
