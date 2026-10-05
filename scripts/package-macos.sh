@@ -76,7 +76,7 @@ mv "$STAGED_APP" "$APP_BUNDLE"
 mv "$STAGE/$ZIP_NAME" "$STAGE/$ZIP_NAME.sha256" "$OUTDIR/"
 SOURCE_ZIP="$OUTDIR/$APP_NAME-$VERSION-source.zip"
 if [[ -f "$SOURCE_ZIP" ]]; then mv "$SOURCE_ZIP" "$SOURCE_ZIP.previous-$(date +%Y%m%d-%H%M%S)"; fi
-COPYFILE_DISABLE=1 /usr/bin/zip -q -r "$SOURCE_ZIP" Package.swift Sources Tests Tools scripts README.md DEVELOPMENT.md DESIGN.md ASSETS.md ASSETS_0.7.0.md CHANGELOG.md LICENSE .gitignore RELEASE_CHECK.md -x '*/.DS_Store' '*/__pycache__/*'
+COPYFILE_DISABLE=1 /usr/bin/zip -q -r "$SOURCE_ZIP" Package.swift Sources Tests Tools scripts docs README.md DEVELOPMENT.md DESIGN.md ASSETS.md ASSETS_0.7.0.md CHANGELOG.md LICENSE .gitignore RELEASE_CHECK.md -x '*/.DS_Store' '*/__pycache__/*'
 (cd "$OUTDIR" && shasum -a 256 "$(basename "$SOURCE_ZIP")" > "$(basename "$SOURCE_ZIP").sha256")
 printf 'Created: %s\n' "$APP_BUNDLE" "$OUTDIR/$ZIP_NAME" "$SOURCE_ZIP"
 echo "Universal arm64/x86_64; ad-hoc signed. Developer ID signing and notarization require a developer account."

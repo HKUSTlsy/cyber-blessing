@@ -8,6 +8,12 @@
 
 我也运营一个个人 AI 代充站：[mylsyai.com](https://mylsyai.com)。如果你有 AI 服务代充需求，欢迎访问，了解站内提供的服务与说明。
 
+[![Let Sparks Yield AI 代充站首页](docs/images/mylsyai-home.png)](https://mylsyai.com)
+
+[![AI 代充站套餐展示](docs/images/mylsyai-products.png)](https://mylsyai.com)
+
+点击图片即可访问网站。以上为网站页面截图，套餐、价格及服务说明以站内实时内容为准。
+
 ## 下载与安装
 
 要求 **macOS 13 或更新版本**。同一个安装包包含 Apple Silicon（M 系列）和 Intel 两种架构，无需分别选择；目前实际运行验证覆盖 Apple Silicon，Intel 仍待实机验证。

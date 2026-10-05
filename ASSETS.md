@@ -20,3 +20,8 @@ iconutil -c icns .work/AppIcon.iconset -o Sources/CyberBlessing/Resources/AppIco
 ## 原有素材的分发确认
 
 2026-10-05，项目提供者确认原有香炉、线香、木鱼、木槌、圣杯图片和 `woodfish-tap.wav` 为其自行制作或生成，可随项目发布。此说明记录提供者的来源与分发确认，不将未提供的具体生成工具或第三方授权证明写成已核验事实。新增素材的制作方式及提示词如上文与 `ASSETS_0.7.0.md` 所述。
+
+
+## README 网站展示图片
+
+`docs/images/mylsyai-home.png` 与 `docs/images/mylsyai-products.png` 为 2026-10-05 对作者个人网站 https://mylsyai.com 的公开页面截图，分别展示首页横幅和套餐列表。使用中文界面，无登录操作。仅用于 README 网站介绍，不属于应用运行素材；价格及套餐以网站实时页面为准。
